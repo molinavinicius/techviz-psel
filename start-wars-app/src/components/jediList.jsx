@@ -25,7 +25,7 @@ const JediList = () => {
 
     useEffect(()=> {
         defineJedis("https://swapi.dev/api/people/")
-    })
+    }, [])
 
     return (
         <div>
